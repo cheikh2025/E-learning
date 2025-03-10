@@ -1,0 +1,12 @@
+@media (screen:768px) {
+    .contact {
+        display: flex;
+        text-align: center;
+    }
+    
+}
+
+
+body{
+    overflow-x: hidden;
+}

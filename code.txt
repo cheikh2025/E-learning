@@ -1,0 +1,12 @@
+Animation
+https://www.youtube.com/watch?v=kqlZkDxKLnM 
+
+
+width: 1440;
+height: 929;
+padding-right: 80px;
+padding-left: 80px;
+gap: 251px;
+
+
+
