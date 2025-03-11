@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons/css/all/all.css">
+    <link rel="stylesheet" href="style.css">
     <title>Digilearn-Web-Designe</title>
+    
 </head>
 <body>
     <header class="py-10 bg-bordure w-full px-6 md:px-20">
@@ -89,12 +91,12 @@
                     </div>
                     
                     <div class="mt-5 flex flex-col gap-4">
-                        <p class="text-xl font-light">Trusted by</p>
-                        <div class="flex gap-4 animate-scroll">
-                            <img src="/image/Google Logotype.svg" alt="Google">
-                            <img src="/image/Canva Logotype.svg" alt="Canva">
-                            <img src="/image/Amazon Logotype.svg" alt="Amazon">
-                            <img src="/image/Sketch Logotype.svg" alt="Sketch">
+                        <p class="text-xl font-light ">Trusted by</p>
+                        <div class="flex gap-4  justify-center items-center overflow-hidden animate-scroll">
+                            <img src="/image/Google Logotype.svg" alt="Google" class="h-10 w-auto">
+                            <img src="/image/Canva Logotype.svg" alt="Canva"class="h-10 w-auto">
+                            <img src="/image/Amazon Logotype.svg" alt="Amazon"class="h-10 w-auto">
+                            <img src="/image/Sketch Logotype.svg" alt="Sketch"class="h-10 w-auto">
                         </div>
                     </div>
                 </div>
@@ -130,7 +132,7 @@
     <section class="section2-experience w-full h-auto gap-[80px] p-[80px]">
         <div class="container mx-auto">
             <div class="my-8 text-center relative">
-                <div class="border-t-4 border-[#A4074D] w-16 mx-auto mt-3 right-[55%] absolute"></div>
+                <div class="border-t-4 border-[#A4074D] w-16 mx-auto mt-3 right-[65%] absolute"></div>
                 <p class="text-center font-thin text-gray-700">Why choose us</p>
                 <h1 class="text-black font-medium text-3xl">Best Learning Experience</h1>
             </div>
@@ -194,8 +196,8 @@
                     </div>
                     <div class="my-8 w-full md:w-[600px] h-auto md:h-[403px] relative gap-8">
                         <div class="mb-10 ml-4 md:ml-12 gap-2">
-                            <div class="border-t-4 border-[#A4074D] w-16 mx-auto mt-3 absolute"></div>
-                            <p class="ml-4 md:ml-[13%] font-thin text-gray-700">Why choose us</p>
+                            <div class="border-t-4 border-[#A4074D] w-16 mx-auto mt-3 right-[95%] absolute"></div>
+                            <p class="ml-4 md:ml-[13%] font-thin text-gray-700">about us</p>
                             <h1 class="text-black font-medium text-2xl md:text-3xl">Best Learning Experience</h1>
                         </div>
                         <div class="ml-4 md:ml-12">
@@ -219,7 +221,7 @@
                             <h2 class="text-rouge text-4xl font-semibold">
                                 15<span class="text-[#A4074D]">+</span>
                             </h2>
-                            <p class="text-gray-500">Years of experience</p>
+                            <p class="text-gray-500 ">Years of experience</p>
                         </div>
                     </div>
         
@@ -248,39 +250,37 @@
         </section>
         
 
-        <section class="section4- w-full max-w-screen-xl h-auto p-[80px] gap-[80px] bg-[#FFFFFF]">
-         <div class="text-center justify-center">
+        <section class="section4- w-full max-w-[1440px] h-auto p-[60px] gap-[80px] bg-[#FFFFFF]">
+            <div class="text-center justify-center">
                 <div class="my-8 text-center relative">                   
-                    <div class="border-t-4 border-[#A4074D] w-16 mx-auto mt-3 right-[55%] absolute"></div>  
+                    <div class="border-t-4 border-[#A4074D] w-16 mx-auto mt-3 right-[95%] absolute"></div>
                     <p class="text-center font-thin text-gray-700">Our Class</p>  
-                    <h1 class="text-black font-medium text-3xl mb:text-4xl">Best selling class</h1>
+                    <h1 class="text-black font-medium text-3xl sm:text-4xl">Best selling class</h1>
                 </div>
-
-                <div class="bg-button w-full   max-w-[754px] h-[77px] flex items-center justify-center gap-4 rounded-full p-4 mx-auto ">
-                    <button class="px-6 py-3 font-light cursor-pointer rounded-lg bg-[#FFFFFF]">UI/UX Design</button>
-                    <button class="text-xl px-6 py-3 rounded-lg">Web Development</button>
-                    <button class="text-xl px-6 py-3 rounded-lg">Data Science</button>
+        
+                <div class="bg-button w-full max-w-[754px] h-auto flex flex-col sm:flex-row items-center justify-center gap-4 rounded-full p-4 mx-auto mt-10">
+                    <button class="px-6 py-3 sm:px-6 sm:py-4 font-light cursor-pointer rounded-lg bg-[#FFFFFF]">UI/UX Design</button>
+                    <button class="text-xl px-4 py-2 sm:px-4 sm:py-3 rounded-lg">Web Development</button>
+                    <button class="px-6 py-3 sm:px-6 sm:py-4 rounded-lg">Data Science</button>
                 </div>
-
-                <div class="mx-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:sm:grid-cols-4 gap-6 py-12 sm:top-2">
-                    <div class="bg-white rounded-lg p-6 cursor-pointer hover:scale-95 transition duration-700 hover:shadow-lg flex flex-col w-full sm:w-[302px]  lg:h-[223px]">
+        
+                <div class="mx-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 py-12">
+                    <div class="bg-white rounded-lg p-6 cursor-pointer hover:scale-95 transition duration-700 hover:shadow-lg flex flex-col w-full sm:w-[302px] h-auto">
                         <div class="mx-auto">
                             <img src="/image/Rectangle 1461.svg" class="mx-auto" alt="Calculated Weather">
                         </div>
-                    
-                        <h2 class="text-black text-xl font-semibold mt-4">Introduction to Design System in Figma</h2>
-                    
-                        <div class="flex justify-between items-center mt-4">
+                        <h2 class="text-black text-xl font-semibold mt-4 text-sm sm:text-lg">Introduction to Design System in Figma</h2>
+                        <div class="flex justify-between items-center mt-4 w-full">
                             <div class="flex items-center space-x-2">
                                 <img src="/image/puce.svg" alt="">
-                                <p class="text-lg font-light">16 Lessons</p>
+                                <p class="text-sm sm:text-lg font-light  ">16 Lessons</p>
                             </div>
                             <div class="flex items-center space-x-2">
                                 <img src="/image/Clock.svg" alt="">
-                                <p class="text-lg font-light">16 Weeks</p>
+                                <p class="text-sm sm:text-lg font-light">16 Weeks</p>
                             </div>
                         </div>                    
-                        <div class="flex justify-between items-center mt-4">
+                        <div class="flex flex-row justify-between items-center mt-4 ">
                             <p class="text-xl font-semibold text-gray-900">$350</p>
                             <div class="flex items-center space-x-2">
                                 <img src="/image/Star 1.svg" alt="">
@@ -288,105 +288,95 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="bg-white rounded-lg p-6 cursor-pointer hover:scale-95 transition duration-700 hover:shadow-lg flex flex-col sm:w-[302px]h-[223px]">
+        
+                    <div class="bg-white rounded-lg p-6 cursor-pointer hover:scale-95 transition duration-700 hover:shadow-lg flex flex-col sm:w-[302px] h-auto">
                         <div class="mx-auto">
                             <img src="/image/lettre.svg" class="mx-auto" alt="Calculated Weather">
                         </div>
-                    
                         <h2 class="text-black text-xl font-semibold mt-4">Introduction to Design Thinking Framework</h2>
-                    
                         <div class="flex justify-between items-center mt-4">
                             <div class="flex items-center space-x-2">
                                 <img src="/image/puce.svg" alt="">
-                                <p class="text-lg font-light">17 Lessons</p>
+                                <p class="text-sm sm:text-lg font-light">17 Lessons</p>
                             </div>
                             <div class="flex items-center space-x-2">
                                 <img src="/image/Clock.svg" alt="">
-                                <p class="text-lg font-light">16 Weeks</p>
+                                <p class="text-sm sm:text-lgfont-light">16 Weeks</p>
                             </div>
                         </div>                    
                         <div class="flex justify-between items-center mt-4">
                             <p class="text-xl font-semibold text-gray-900">$360</p>
                             <div class="flex items-center space-x-2">
                                 <img src="/image/Star 1.svg" alt="">
-                                <p class="text-lg font-light">4.7</p>
+                                <p class="text-sm sm:text-lg font-light">4.7</p>
                             </div>
                         </div>
                     </div>
-                    <div class="bg-white rounded-lg p-6 cursor-pointer hover:scale-95 transition duration-700 hover:shadow-lg flex flex-col sm:w-[302px]h-[223px]">
+        
+                    <div class="bg-white rounded-lg p-6 cursor-pointer hover:scale-95 transition duration-700 hover:shadow-lg flex flex-col sm:w-[302px] h-auto">
                         <div class="mx-auto">
                             <img src="/image/type.svg" class="mx-auto" alt="Calculated Weather">
                         </div>
-                    
-                        <h2 class="text-black text-xl font-semibold mt-4">Design Principle and Fundamentals for UI Designer</h2>
-                    
+                        <h2 class="text-black text-xl font-semibold mt-4 text-sm sm:text-lg">Design Principle and Fundamentals</h2>
                         <div class="flex justify-between items-center mt-4">
                             <div class="flex items-center space-x-2">
                                 <img src="/image/puce.svg" alt="">
-                                <p class="text-lg font-light">15 Lessons</p>
+                                <p class="text-sm sm:text-lg font-light">15 Lessons</p>
                             </div>
                             <div class="flex items-center space-x-2">
                                 <img src="/image/Clock.svg" alt="">
-                                <p class="text-lg font-light">16 Weeks</p>
+                                <p class="text-sm sm:text-lg font-light ">16 Weeks</p>
                             </div>
                         </div>                    
-                        <div class="flex justify-between items-center mt-4">
+                        <div class="flex justify-between items-center mt-4 text-sm">
                             <p class="text-xl font-semibold text-gray-900">$340</p>
                             <div class="flex items-center space-x-2">
                                 <img src="/image/Star 1.svg" alt="">
-                                <p class="text-lg font-light">4.8</p>
+                                <p class="text-sm sm:text-lg font-light">4.8</p>
                             </div>
                         </div>
                     </div>
-                    <div class="bg-white rounded-lg p-6 cursor-pointer hover:scale-95 transition duration-700 hover:shadow-lg flex flex-col sm:w-[302px] h-[223px]">
+        
+                    <div class="bg-white rounded-lg p-6 cursor-pointer hover:scale-95 transition duration-700 hover:shadow-lg flex flex-col sm:w-[302px] h-auto">
                         <div class="mx-auto">
                             <img src="/image/post.svg" class="mx-auto" alt="Calculated Weather">
                         </div>
-                    
-                        <h2 class="text-black text-xl font-semibold mt-4">Designing Responsive Dashboard for Fintech in Figma</h2>
-                    
+                        <h2 class="text-black text-xl font-semibold mt-4 text-sm sm:text-lg">Designing Responsive Dashboard</h2>
                         <div class="flex justify-between items-center mt-4">
                             <div class="flex items-center space-x-2">
                                 <img src="/image/puce.svg" alt="">
-                                <p class="text-lg font-light">19 Lessons</p>
+                                <p class="text-sm sm:text-lg font-light ">19 Lessons</p>
                             </div>
                             <div class="flex items-center space-x-2">
                                 <img src="/image/Clock.svg" alt="">
-                                <p class="text-lg font-light">16 Weeks</p>
+                                <p class="text-sm sm:text-lgfont-light ">16 Weeks</p>
                             </div>
                         </div>                    
                         <div class="flex justify-between items-center mt-4">
                             <p class="text-xl font-semibold text-gray-900">$380</p>
                             <div class="flex items-center space-x-2">
                                 <img src="/image/Star 1.svg" alt="">
-                                <p class="text-lg font-light">5.0</p>
+                                <p class="text-sm sm:text-lg font-light">5.0</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="gap-7 mt-10 sm:mt-[20px] px-[40%] sm:px-[20%] lg:px-[10%]"> 
-                    <button
-                        class="bg-star flex items-center justify-center rounded-lg text-white 
-                        focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 
-                        active:bg-orange-700 px-4 py-2 text-sm sm:text-base">
+        
+                <div class="mt-12 sm:mt-20 flex justify-center"> 
+                    <button class="bg-star flex items-center justify-center rounded-lg text-white px-6 py-4 text-sm sm:text-base">
                         View all class
-                        <img src="/image/ArrowRight.svg" alt="" class="items-center justify-center ml-2 h-4 w-4">
+                        <img src="/image/ArrowRight.svg" alt="" class="ml-2">
                     </button>
                 </div>
-                
-
-                
             </div>
-            
         </section>
+        
 
 
-        <section class="secton5-  w-full max-w-screen-xl h-auto p-6 sm:p-12 lg:p-20 gap-8 bg-[#F9FCFF] mx-auto">
+        <section class="secton5-   w-full max-w-screen-xl w-[1440px] h-[587] p-8 sm:p-12 lg:p-20 gap-8 bg-[#F9FCFF] mx-auto">
             <div class="text-center justify-center">
                 <div class="my-8 text-center relative">
-                    <div class="border-t-4 border-[#A4074D] w-16 mx-auto mt-3 right-[55%] absolute"></div>
+                    <div class="border-t-4 border-[#A4074D] w-16 mx-auto mt-3 right-[60%] absolute"></div>
                     <p class="text-center font-thin text-gray-700">Testimonial</p>
                     <h1 class="text-black font-medium text-3xl md:text-4xl lg:text-5xl">Student Testimonial</h1>
                 </div>
@@ -457,7 +447,7 @@
         <section class="section6 w-full max-w-screen-xl h-auto p-6 sm:p-12 lg:p-20 bg-[#FFFFFF] mx-auto">
             <div class="text-center">
                 <div class="my-8 relative">
-                    <div class="border-t-4 border-[#A4074D] w-16 mx-auto mt-3"></div>
+                    <div class="border-t-4 border-[#A4074D] w-16 mx-auto mt-3 right-[55%] absolute"></div>
                     <p class="text-gray-700 font-thin">Blog</p>
                     <h1 class="text-black font-medium text-3xl md:text-4xl lg:text-5xl">Browse articles</h1>
                 </div>
